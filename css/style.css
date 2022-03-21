@@ -91,3 +91,13 @@ i.material-icons.circle.status{
 .md-6{
   font-size: 12px !important;
 }
+.msg{
+  font-size: 12px !important;
+  margin-right: 2px;
+}
+.enviado{
+  color: grey;
+}
+.visto{
+  color: cyan;
+}
