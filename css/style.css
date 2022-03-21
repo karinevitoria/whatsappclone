@@ -1,0 +1,55 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *#34af23
+ * Made By MaterializeCSS.com
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#titulo{
+  background-color: #00796b;
+  font-size: 30px;
+  padding: 15px !important;
+  color: white;
+  margin: 0% !important;
+}
+#zapzap{
+  margin:0% !important;
+}
+#pesquisa{
+  float: right;
+}
+#barra{
+  background-color: #00796b;
+  color: white;
+  justify-content: center;
+  align-items: center !important;
+  float: center !important;
+  margin-bottom: 0% !important;
+  float: center;
+  text-align: center;
+}
+.secondary-content{
+  border-radius: 100%;
+  background-color: #34af23;
+  color: white;
+  padding: 3px 9px;
+  font-size: larger;
+}
+li.collection-item.avatar{
+  padding-bottom: 0px !important;
+}
+.collection-item.avatar{
+  min-height: 70px !important;
+}
+button#barra{
+  font-family: sans-serif;
+  color: white;
+}
+#cameraplayer{
+  width: 100%;
+  height: 100%;
+  
+}
