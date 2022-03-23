@@ -13,7 +13,8 @@ const assetsToCache = [
     './pages/conversas.html',
     './pages/status.html',
     './icon.png',
-    './index.html'
+    './index.html',
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
 ]
 
 self.addEventListener('install', (event) => {
