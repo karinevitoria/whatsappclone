@@ -76,18 +76,6 @@ i.material-icons.circle.status{
   bottom: 90px;
   right: 30px;
 }
-#btnAdicionar{
-  position: fixed !important;
-  bottom: 69%;
-  right: 86%;
-  width: 20px !important;
-  height: 20px !important;
-}
-.iconAdicionar{
-  position: fixed !important;
-  bottom: 67%;
-  right: 86%;
-}
 .chamada{
   position: absolute;
   top: 16px;
