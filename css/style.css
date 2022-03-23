@@ -5,15 +5,19 @@
  *#34af23
  * Made By MaterializeCSS.com
  */
-
- @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@media only screen and (max-width: 600px) {
+#navZap{
+  background-color: #055f55 !important;
+}
+#tituloResponsivo{
+  display: none !important;
+}
 #titulo{
-  background-color: #055f55;
   font-size: 30px;
   padding: 15px !important;
   color: white;
   margin: 0% !important;
+
 }
 #zapzap{
   margin:0% !important;
@@ -22,13 +26,14 @@
   float: right;
 }
 #barra{
-  background-color: #055f55;
   color: white;
   justify-content: center;
   align-items: center !important;
   float: center !important;
   margin-bottom: 0% !important;
+  margin: 0% !important;
   text-align: center;
+  padding-top: 0% !important;
 }
 .secondary-content{
   border-radius: 100%;
@@ -50,6 +55,16 @@ li.collection-item.avatar{
 }
 #btnPermissao{
   width: auto;
+  position: fixed;
+  bottom: 94%;
+  right: 45%
+}
+#btnFechar{
+  position: fixed;
+  bottom: 94%;
+  right: 5%;
+  font-size: 25px;
+  color: white;
 }
 #barra li {
   display: inline-block;
@@ -108,4 +123,20 @@ ul.collection{
 }
 #atualizacoesr{
   padding-left: 15px;
+}
+#cameraplayer{
+  width: 100%;
+  height: max-content;
+}
+}
+@media only screen and (min-width: 600px){
+  #paginaInteira{
+  color: transparent;
+  display: none;
+  }
+  #tituloResponsivo{
+    display: flex !important;
+    color: black !important;
+
+  }
 }

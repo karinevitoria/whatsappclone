@@ -1,5 +1,5 @@
 function mudaCamera() {
-    $("#content").load("./pages/camera.html");
+    $("#paginaInteira").load("./pages/camera.html");
 }
 function mudaStatus() {
     $("#content").load("./pages/status.html");
