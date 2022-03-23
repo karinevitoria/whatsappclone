@@ -8,18 +8,15 @@
 
 var li = $("#barra li");
 
-li.click(function () {
+li.click(function clicando() {
     li.removeClass("active");
     $(this).addClass("active");
 });
 
-
-function clickBotao(){
   mudaConversa()
-}
+
 
 function mudaConversa(){
-  $("#content").load("./conversas.html")
+  $("#content").load("./pages/conversas.html")
 }
 
-clickBotao()

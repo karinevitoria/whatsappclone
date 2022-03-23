@@ -1,12 +1,12 @@
 function mudaCamera() {
-    $("#content").load("./camera.html");
+    $("#content").load("./pages/camera.html");
 }
 function mudaStatus() {
-    $("#content").load("./status.html");
+    $("#content").load("./pages/status.html");
 }
 function mudaConversa(){
-    $("#content").load("./conversas.html")
+    $("#content").load("./pages/conversas.html")
 }
 function mudaChamadas(){
-    $("#content").load("./chamadas.html")
+    $("#content").load("./pages/chamadas.html")
 }
